@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="Style3.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Page 3</title>
+    </head>
+    <body>
+        <nav class="active" id="nav">
+            <ul>
+                <li><a href="C:\Users\Arria\source\Project2\Page1.html">Home</a></li>
+                <li><a href="C:\Users\Arria\source\Project2\Page2.html">Menu</a></li>
+                <li><a href="C:\Users\Arria\source\Project2\Page3.html">Order Now</a></li>
+                <li><a href="C:\Users\Arria\source\Project2\Page4.html">Gallery</a></li>
+            </ul>
+            <button class="icon" id="toggle">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+            </button>
+        </nav>
+        <h1>Order Submission</h1>
+        <form action="C:\Users\Arria\source\Project2\database.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="message">
+
+            <label for="phone-number">Phone Number</label>
+            <input type="text" id="phone-number" name="phoneNumber">
+
+            <label for="priorirty">Restaurant Eating Options</label>
+            <select id="options" name="options">
+                <option value="1">Dine-in</option>
+                <option value="2">Delivery</option>
+                <option value="3">Pick up</option>
+            </select>
+            <br><br>
+            <button>Submit</button>
+        </form>
+        <script src="Script3.js"></script>
+        <script src="Script1.js"></script>
+    </body>
+</html>
